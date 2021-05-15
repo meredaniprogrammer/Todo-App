@@ -1,0 +1,100 @@
+@import url('https://fonts.google.com/specimen/Josefin+Sans');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    Font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
+.container-fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.image-container {
+    background-image: url('../images/bg-desktop-light.jpg');
+    height: 50vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.centered-div {
+    /* background-color: beige; */
+    width: 90vw;
+    max-width: 40vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+.inner_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7rem;
+}
+.h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Josefin';
+    font-weight: bold;
+    letter-spacing: 0.4rem;
+}
+.svg:hover {
+    cursor: pointer;
+}
+/* styling for the input which has bootstrap classes */
+.control_height {
+    height: 7% !important;
+    margin-top: -12rem;
+    border: none !important;
+}
+/* Giving a background color to addon-wrapping which came with the form group */
+#addon-wrapping {
+    background-color: #fff !important;
+}
+/* */
+.form_input_part {
+    margin-top: -15rem;
+   
+    position: relative;
+}
+.form_input_part:before {
+    content: "";
+    width: 26px;
+    height: 26px;
+    border: 1px solid #4d5066;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 5.5%;
+    left: 1.5rem;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.todo_input {
+    width: 100%;
+    font-size: 16px;
+    padding: 1rem 4rem;
+    font-family: inherit;
+    border: none;
+    border-radius: .4rem;
+    color: rgb(36, 35, 35);
+    background-color: #fff;
+    
+}
+@media(max-width: 1440px){
+    .centered-div {
+        /* background-color: beige; */
+        width: 100vw;
+        max-width: 90vw;
+        height: 100vh;
+        margin: 0 auto;
+    }
+}
+
+
+
